@@ -1,4 +1,4 @@
-class Calculator {
+﻿class Calculator {
     constructor(previousOperandTextElement, currentOperandTextElement) {
         this.previousOperandTextElement = previousOperandTextElement
         this.currentOperandTextElement = currentOperandTextElement
@@ -42,9 +42,11 @@ class Calculator {
             case '-':
                 computation = prev - current
                 break
+            case '*':
             case '×':
                 computation = prev * current
                 break
+            case '/':
             case '÷':
                 computation = prev / current
                 break
