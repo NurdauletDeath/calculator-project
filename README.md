@@ -1,36 +1,38 @@
 # Calculator
 
-Это учебный проект, в котором я создаю функциональный калькулятор с нуля. Я намеренно двигаюсь очень маленькими шагами, чтобы история кода оставалась чистой. Итоговое приложение поддерживает базовую арифметику, операции с десятичными дробями, функции очистки/удаления и управление с клавиатуры.
+This is a learning project where I build a functional calculator from scratch.
+I intentionally move in very small steps to keep the code history clear.
+The final app supports basic arithmetic, decimal operations, clear/delete functionality, and keyboard support.
 
-## Стек
+## Stack
 
 - HTML
 - CSS
 - Vanilla JavaScript
 
-## План разработки (Микро-шаги)
+## Build Plan (Micro Steps)
 
-1. Создание начальных файлов проекта (`index.html`, `styles.css`, `script.js`).
-2. Добавление разметки дисплея калькулятора (предыдущий и текущий операнд).
-3. Создание сетки кнопок (цифры и операторы) в HTML.
-4. Применение стилей CSS Grid для адаптивного и аккуратного интерфейса.
-5. Создание структуры класса `Calculator` в JavaScript.
-6. Реализация функции `clear` для сброса дисплея.
-7. Реализация функции `delete` для удаления последнего введенного символа.
-8. Добавление логики `appendNumber` для обновления текущего операнда.
-9. Добавление логики `chooseOperation` для обработки операторов.
-10. Реализация функции `compute` для выполнения математических вычислений.
-11. Добавление функции `updateDisplay` для обновления UI.
-12. Выбор всех DOM-элементов и создание слушателей событий для кнопок.
-13. Добавление поддержки клавиатуры для улучшения доступности и удобства.
-14. Исправление CSS-стилей для корректного взаимодействия с кнопками (hover/active).
-15. Добавление логики для предотвращения ввода нескольких десятичных точек.
-16. Рефакторинг кода для улучшения читаемости и структуры.
-17. Полировка дизайна и верстки интерфейса.
-18. Тестирование всех операций (сложение, вычитание, умножение, деление).
-19. Финальная очистка кода и добавление документации.
+1. Create the initial project files (`index.html`, `styles.css`, `script.js`).
+2. Add the calculator display layout (previous and current operand).
+3. Create the button grid (numbers and operators) in HTML.
+4. Apply CSS Grid styles for a responsive and clean keypad layout.
+5. Create the `Calculator` class structure in JavaScript.
+6. Implement the `clear` function to reset the display.
+7. Implement the `delete` function to remove the last character.
+8. Add `appendNumber` logic to update the current operand.
+9. Add `chooseOperation` logic to handle operators.
+10. Implement the `compute` function to perform the math calculations.
+11. Add `updateDisplay` function to refresh the UI.
+12. Select all DOM elements and create event listeners for buttons.
+13. Add keyboard support for improved accessibility and usability.
+14. Fix CSS styling for better button interaction (hover/active states).
+15. Add logic to prevent multiple decimal points.
+16. Refactor code for better readability and structure.
+17. Polish the UI design and layout.
+18. Test all operations (add, subtract, multiply, divide).
+19. Final code cleanup and documentation.
 
-## Примеры сообщений коммитов
+## Commit Message Examples
 
 1. `chore: initialize calculator project skeleton`
 2. `feat: add calculator display and keypad markup`
